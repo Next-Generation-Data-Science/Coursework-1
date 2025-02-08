@@ -32,3 +32,23 @@ The project involves:
     - RMSE (Root Mean Squared Error)
     - MAE (Mean Absolute Error)
     - XAI techniques for interpretability
+
+## Tools & Technologies
+- **Programming Language:** Python
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, TensorFlow/Pytorch
+- **Development Platforms:** GitHub, Google Colab
+- **AutoML:** Tools like AutoKeras, H2O.ai
+
+## Repository Structure:**
+📂 covid19-prediction  
+│-- 📂 data/                # Raw and processed data  
+│-- 📂 notebooks/           # Jupyter notebooks for EDA and modelling  
+│-- 📂 models/              # Trained model files  
+│-- preprocess_data.py      # Data cleaning and preparation script  
+│-- train_model.py          # Model training script  
+│-- predict.py              # Prediction script  
+│-- README.md               # Project documentation  
+│-- requirements.txt        # Required dependencies  
+
+## Contributors:**
+- [Riya Chandaria] (https://github.com/riyachandaria)
