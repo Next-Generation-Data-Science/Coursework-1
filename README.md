@@ -11,7 +11,7 @@ The project involves:
 - **Performance Analysis:** Evaluating results using performance metrics, graphical analysis, and Explainable AI (XAI) techniques.
 
 ## Dataset
-- **Source:** [OWID COVID-19 Data] (INSERT LINK)
+- **Source:** [OWID COVID-19 Data](https://raw.githubusercontent.com/owid/covid-19-data/refs/heads/master/public/data/owid-covid-data.csv)
 - **Features Used:**
   - `date`: Date of recorded data
   - `new_cases`: Daily new COVID-19 cases
@@ -39,7 +39,7 @@ The project involves:
 - **Development Platforms:** GitHub, Google Colab
 - **AutoML:** Tools like AutoKeras, H2O.ai
 
-## Repository Structure:**
+## Repository Structure:
 📂 covid19-prediction  
 │-- 📂 data/                # Raw and processed data  
 │-- 📂 notebooks/           # Jupyter notebooks for EDA and modelling  
@@ -50,5 +50,6 @@ The project involves:
 │-- README.md               # Project documentation  
 │-- requirements.txt        # Required dependencies  
 
-## Contributors:**
-- [Riya Chandaria] (https://github.com/riyachandaria)
+## Contributors:
+- [Riya Chandaria](https://github.com/riyachandaria)
+
