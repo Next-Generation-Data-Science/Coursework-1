@@ -63,7 +63,7 @@ To run this project, install the required Python packages:
 
 To execute the code, simply run the script in a Python environment:
 
-```python covid_deaths_prediction.py```
+```python covid_deaths_prediction.ipynb```
 
 ## Author:
 - [Riya Chandaria](https://github.com/riyachandaria)
