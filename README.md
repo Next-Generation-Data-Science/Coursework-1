@@ -1,7 +1,7 @@
 # COVID-19 Deaths Prediction
 
 ## Project Overview
-This project is part of an academic assignment focused on applying machine learning techniques to predict real-world societal threats. The chosen topic is **COVID-19 deaths prediction**, where I developed a machine learning model to forecast new cases based on historical data.  
+This project is part of an academic assignment focused on applying machine learning techniques to predict real-world societal threats. The chosen topic is the prediction of COVID-19 deaths, and I developed an LSTM model to forecast new cases based on historical data.  
 
 The project involves:
 - **Data Visualisation:** Analysing trends in COVID-19 deaths.
@@ -11,14 +11,14 @@ The project involves:
 - **Performance Analysis:** Evaluating results using performance metrics, graphical analysis, and Explainable AI (XAI) techniques.
 
 ## Dataset
-The dataset used for this project is the [OWID COVID-19 dataset](https://raw.githubusercontent.com/owid/covid-19-data/refs/heads/master/public/data/owid-covid-data.csv), which contains various COVID-19 related statistics for multiple countries. The dataset is accessed directly from the OWID GitHub repository.
+The dataset used for this project is the [OWID COVID-19 dataset](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv), which contains various COVID-19 related statistics for multiple countries. The dataset was copied over to this repository directly from the OWID GitHub repository.
  
 ## Data Preprocessing
 
 The following steps were performed to clean and preprocess the data:
 - Filtered data for the United Kingdom only.
 - Converted the `date` column to the datetime format.
-- Select revelant columns including case numbers and deaths.
+- Select relevant columns, including case numbers and deaths.
 - Removed NaN values.
 - Filtered data from 2nd February 2020 to 22nd October 2023.
 - Removed rows where `new_deaths` was zero.
@@ -51,7 +51,7 @@ A plot of training vs validation loss was generated to assess model convergence.
 
 ## Results
 
-After training, the model made predictions on the validation set. The results were compared to actual values using evaluation metrics.
+After training, the model made predictions on the validation set. Using evaluation metrics, the results were compared to actual values.
 
 ## Dependencies
 
