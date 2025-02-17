@@ -9,8 +9,13 @@ jobs:
   update-dataset:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout repository manually
+        run: |
+          git init
+          git remote add origin https://github.com/${{ github.repository }}.git
+          git fetch origin main
+          git checkout -f main
+
 
       - name: Download OWID COVID-19 dataset
         run: curl -o owid-covid-data.csv https://raw.githubusercontent.com/owid/covid-19-data/refs/heads/master/public/data/owid-covid-data.csv
