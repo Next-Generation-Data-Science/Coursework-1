@@ -7,6 +7,7 @@ The COVID-19 pandemic has challenged healthcare systems worldwide, making accura
 
 ## Repository Structure
 - **`.github/workflows`** - Contains a workflow used to download a copy of the original dataset to this repository.
+- **`Figures`** - Contains some of the plots generated in the code.
 - **`Code - 27.02.25.ipynb`** - Contains the Google Colab code notebook used for this project.
 - **`README.md`** - Contains this readme file.
 - **`owid-covid-data.csv`** - Contains the dataset used for this project, which was copied from the [Our World in Data (OWID) COVID-19 dataset](https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv) and contains various COVID-19 related statistics for multiple countries.
@@ -23,6 +24,8 @@ The global impact of COVID-19 has emphasised the need for reliable forecasting m
      - Filtered the OWID COVID-19 dataset to focus on UK data.
      - Filtered the dataset to focus on specific columns (i.e. `new_deaths`, `new_cases`, `population`, etc).
      - Removed any missing values.
+
+![New vs. Total COVID-19 Deaths Over Time](Figures/New vs. Total COVID-19 Deaths Over Time.png)
 
 ### Methodology
 1. **Data Pre-processing:**
@@ -44,6 +47,7 @@ The global impact of COVID-19 has emphasised the need for reliable forecasting m
  ### **Results:**
 1. **Visualising Results:**
      - Plotted the historical and predicted `new_deaths` values over time.
+![Historical and Predicted New Deaths Over Time ](Figures/Historical and Predicted New Deaths Over Time .png)
 2. **Performance Assessment:**
      - Plotted loss curves.
      - Calculated performance metrics such as MAE, MSE, RMSE, and $R^2$ score
