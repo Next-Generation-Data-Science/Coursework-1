@@ -52,7 +52,7 @@ The global impact of COVID-19 has emphasised the need for reliable forecasting m
 
 2. **Performance Assessment:**
      - Plotted loss curves.
-     - Calculated performance metrics such as MAE, MSE, RMSE, and $R^2$ score
+     - Calculated performance metrics such as MAE, MSE, RMSE, and $R^2$ score.
      - Explainable AI - Used SHAP to create a waterfall plot and explain feature contributions.
 
 ### **Conclusion:**
