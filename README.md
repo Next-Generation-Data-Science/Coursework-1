@@ -25,7 +25,7 @@ The global impact of COVID-19 has emphasised the need for reliable forecasting m
      - Filtered the dataset to focus on specific columns (i.e. `new_deaths`, `new_cases`, `population`, etc).
      - Removed any missing values.
 
-![New vs. Total COVID-19 Deaths Over Time](Figures/New vs. Total COVID-19 Deaths Over Time.png)
+![New vs. Total COVID-19 Deaths Over Time](Figures/New%20vs.%20Total%20COVID-19%20Deaths%20Over%20Time.png)
 
 ### Methodology
 1. **Data Pre-processing:**
@@ -47,7 +47,9 @@ The global impact of COVID-19 has emphasised the need for reliable forecasting m
  ### **Results:**
 1. **Visualising Results:**
      - Plotted the historical and predicted `new_deaths` values over time.
-![Historical and Predicted New Deaths Over Time ](Figures/Historical and Predicted New Deaths Over Time .png)
+
+![Historical and Predicted New Deaths Over Time](Figures/Historical%20and%20Predicted%20New%20Deaths%20Over%20Time.png)
+
 2. **Performance Assessment:**
      - Plotted loss curves.
      - Calculated performance metrics such as MAE, MSE, RMSE, and $R^2$ score
