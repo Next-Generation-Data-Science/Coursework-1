@@ -64,6 +64,6 @@ The global impact of COVID-19 has emphasised the need for reliable forecasting m
 - Chimmula, V. K. R. & Zhang, L., 2020. Time series forecasting of COVID-19 transmission in Canada using LSTM networks. Chaos, Solitons & Fractals, Volume 135.
 - Shastri, S. et al., 2020. Time series forecasting of COVID-19 using deep learning models: India-USA comparative case study. Chaos, Solitons & Fractals, Volume 140.
 
-## Author:
+## Author
 - [Riya Chandaria](https://github.com/riyachandaria)
 
